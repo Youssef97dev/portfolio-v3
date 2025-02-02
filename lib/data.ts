@@ -3,13 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import salama from "@/public/salama.png";
-import casalalla from "@/public/casalalla.png";
-import casapet from "@/public/casapet.png";
-import palace from "@/public/palace-ui.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import { FaGitSquare } from "react-icons/fa";
 
 export const links = [
   {
@@ -80,7 +73,7 @@ export const projectsData = [
     description:
       "I worked as a full-stack developer on this reservation system project for 1 month.",
     tags: ["React", "Next.js", "Tailwind", "PostgreSQL", "Prisma", "Nestjs"],
-    imageUrl: palace,
+    imageUrl: "/palace-ui.png",
     githublink: "https://github.com/Youssef97dev/le-palace-ui",
     directlink: "https://le-palace-ui.vercel.app/",
   },
@@ -89,7 +82,7 @@ export const projectsData = [
     description:
       "I developed the website for Le Salama restaurant. Built with Next.js and Tailwind CSS, the site provides an elegant and responsive interface, showcasing the menu, events, and reservation system.",
     tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: salama,
+    imageUrl: "/salama.png",
     githublink: "https://github.com/Youssef97dev/le_salama_V2",
     directlink: "https://le-salama-v2.vercel.app/",
   },
@@ -98,7 +91,7 @@ export const projectsData = [
     description:
       "I created the website for Casa Lalla restaurant. Designed with Next.js and Tailwind CSS, the site ensures a seamless browsing experience, highlighting accommodations, services and reservation system.",
     tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: casalalla,
+    imageUrl: "/casalalla.png",
     githublink: "https://github.com/Youssef97dev/casalalla-v7",
     directlink: "https://casalalla-v7.vercel.app/",
   },
@@ -107,7 +100,7 @@ export const projectsData = [
     description:
       "I built the frontend using Next.js and Material UI, The backend, developed with Laravel and MySQL.",
     tags: ["Next.js", "MaterialUI", "Laravel", "Mysql"],
-    imageUrl: casapet,
+    imageUrl: "/casapet.png",
     githublink: "https://github.com/jamal-kak/casapets-react",
     directlink:
       "https://www.linkedin.com/posts/youssef-moussafi_laravel-reactjs-contextapi-activity-7087206621809885184-qJ7Y/",
