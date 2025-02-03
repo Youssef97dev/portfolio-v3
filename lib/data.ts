@@ -1,7 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaChalkboardTeacher } from "react-icons/fa";
 import corpcommentImg from "@/public/corpcomment.png";
 
 export const links = [
@@ -37,7 +37,7 @@ export const experiencesData = [
     location: "Marrakech, Morocco",
     description:
       "I have been working as a Full-Stack Developer since October 2023 at Votre Salle, where I built votresalles.ma, a web platform for managing and publishing halls rentals in Morocco. I developed both the frontend and backend using Next.js, NestJS, and PostgreSQL.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(TbBrandNextjs),
     date: "October 2023 - present",
   },
   {
@@ -45,7 +45,7 @@ export const experiencesData = [
     location: "Casablanca, Morocco",
     description:
       "I worked as a Full-Stack Developer at EAM Services, where I developed two web applications: one for procurement management, handling suppliers, products, orders, and stock tracking, and another for worker management, covering leaves, documents, and task planning. I worked on both frontend and backend using React.js, Node.js/Express.js, and MongoDB",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "October 2020 — February 2023",
   },
   {
@@ -53,7 +53,7 @@ export const experiencesData = [
     location: "Casablanca, Morocco",
     description:
       "I worked as an IT Teacher at Group Scolaire Riad Les Nobles. I created and deployed the school's website (riadlesnobles.ma) using WordPress and managed its content. Additionally, I produced promotional videos and graphics for social media using Photoshop and Filmora, alongside my teaching responsibilities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaChalkboardTeacher),
     date: "November 2019 — September 2020",
   },
 ] as const;
