@@ -73,7 +73,7 @@ export const projectsData = [
     description:
       "I worked as a full-stack developer on this reservation system project for 1 month.",
     tags: ["React", "Next.js", "Tailwind", "PostgreSQL", "Prisma", "Nestjs"],
-    imageUrl: "/palace-ui.png",
+    imageUrl: "/palace-ui.PNG",
     githublink: "https://github.com/Youssef97dev/le-palace-ui",
     directlink: "https://le-palace-ui.vercel.app/",
   },
@@ -91,7 +91,7 @@ export const projectsData = [
     description:
       "I created the website for Casa Lalla restaurant. Designed with Next.js and Tailwind CSS, the site ensures a seamless browsing experience, highlighting accommodations, services and reservation system.",
     tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: "/casalalla.png",
+    imageUrl: "/casalalla.PNG",
     githublink: "https://github.com/Youssef97dev/casalalla-v7",
     directlink: "https://casalalla-v7.vercel.app/",
   },
@@ -100,7 +100,7 @@ export const projectsData = [
     description:
       "I built the frontend using Next.js and Material UI, The backend, developed with Laravel and MySQL.",
     tags: ["Next.js", "MaterialUI", "Laravel", "Mysql"],
-    imageUrl: "/casapet.png",
+    imageUrl: "/casapet.PNG",
     githublink: "https://github.com/jamal-kak/casapets-react",
     directlink:
       "https://www.linkedin.com/posts/youssef-moussafi_laravel-reactjs-contextapi-activity-7087206621809885184-qJ7Y/",
